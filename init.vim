@@ -10,6 +10,9 @@ set wrap
 set guifont=Fira\ Mono
 autocmd VimEnter * NERDTree
 
+set autoread
+
+
 "   " - Avoid using standard Vim directory names like 'plugin'
 "
 "   " Make sure you use single quotes
