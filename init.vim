@@ -7,7 +7,7 @@ set tm=500
 set sidescroll=1
 set splitbelow
 set wrap
-
+set guifont=Fira\ Mono
 autocmd VimEnter * NERDTree
 
 "   " - Avoid using standard Vim directory names like 'plugin'
@@ -24,7 +24,9 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'evanleck/vim-svelte'
 	Plug 'APZelos/blamer.nvim'
 	Plug 'jaredgorski/spacecamp'
+	Plug 'ryanoasis/vim-devicons'
 "   " Initialize plugin system
 call plug#end()
 
 colorscheme spacecamp
+>>>>>>> ad59caf (Stuff)
