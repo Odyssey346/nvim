@@ -21,17 +21,17 @@ set autoread
 "
 "   " Make sure you use single quotes
 call plug#begin(stdpath('data') . '/plugged')
-	Plug 'preservim/nerdtree'
-	Plug 'vim-airline/vim-airline'
-	Plug 'tpope/vim-fugitive'
-	Plug 'pangloss/vim-javascript'
-	Plug 'leafgarland/typescript-vim'
-	Plug 'peitalin/vim-jsx-typescript'
-	Plug 'neoclide/coc.nvim'
-	Plug 'evanleck/vim-svelte'
-	Plug 'APZelos/blamer.nvim'
-	Plug 'jaredgorski/spacecamp'
-	Plug 'ryanoasis/vim-devicons'
+	Plug 'preservim/nerdtree' " Directory tree on the side
+	Plug 'vim-airline/vim-airline' " Fancy status bar thing
+	Plug 'tpope/vim-fugitive' " Git plugin
+	Plug 'pangloss/vim-javascript' " JS syntax stuff
+	Plug 'leafgarland/typescript-vim' "TS syntax stuff
+	Plug 'peitalin/vim-jsx-typescript' "JSX stuff
+	Plug 'neoclide/coc.nvim' " For discord rich presence
+	Plug 'evanleck/vim-svelte' " Svelte stuff
+	Plug 'APZelos/blamer.nvim' " Git blame inside of Vim
+	Plug 'jaredgorski/spacecamp' " Color scheme
+	Plug 'ryanoasis/vim-devicons' " Icon support
 "   " Initialize plugin system
 call plug#end()
 
