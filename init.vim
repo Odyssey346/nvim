@@ -1,3 +1,7 @@
+" Set lang
+set langmenu=en_US.UTF-8
+language en 
+
 set history=500 
 set lazyredraw 
 set noerrorbells
