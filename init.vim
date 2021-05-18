@@ -30,12 +30,13 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'neoclide/coc.nvim' " For discord rich presence
 	Plug 'evanleck/vim-svelte' " Svelte stuff
 	Plug 'APZelos/blamer.nvim' " Git blame inside of Vim
-	Plug 'jaredgorski/spacecamp' " Color scheme
+	" Plug 'jaredgorski/spacecamp' " Color scheme
 	Plug 'ryanoasis/vim-devicons' " Icon support
 	Plug 'godlygeek/tabular' " For below
 	Plug 'plasticboy/vim-markdown' " Markdown support
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+	Plug 'wojciechkepka/bogster' " Color scheme 2: Electric boogaloo
 "   " Initialize plugin system
 call plug#end()
 
-colorscheme spacecamp
+colorscheme bogster
