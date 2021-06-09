@@ -18,9 +18,6 @@ autocmd VimEnter * NERDTree
 set autoread
 set number
 
-" - Avoid using standard Vim directory names like 'plugin'
-"
-" Make sure you use single quotes
 call plug#begin(stdpath('data') . '/plugged')
 	Plug 'preservim/nerdtree' " Directory tree on the side
 	Plug 'vim-airline/vim-airline' " Fancy status bar thing
