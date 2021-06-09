@@ -16,11 +16,11 @@ set guifont=Fira\ Mono
 autocmd VimEnter * NERDTree
 
 set autoread
+set number
 
-
-"   " - Avoid using standard Vim directory names like 'plugin'
+" - Avoid using standard Vim directory names like 'plugin'
 "
-"   " Make sure you use single quotes
+" Make sure you use single quotes
 call plug#begin(stdpath('data') . '/plugged')
 	Plug 'preservim/nerdtree' " Directory tree on the side
 	Plug 'vim-airline/vim-airline' " Fancy status bar thing
@@ -38,6 +38,11 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 	Plug 'wojciechkepka/bogster' " Color scheme 2: Electric boogaloo
 	Plug 'tc50cal/vim-terminal' " Terminal improvements
+	Plug 'drewtempelmeyer/palenight.vim' " Once again, color scheme...
+	Plug 'vim-airline/vim-airline-themes' " For airline
 call plug#end()
 
-colorscheme bogster
+
+set background=dark " needed i think
+let g:airline_theme = "palenight"
+colorscheme palenight
