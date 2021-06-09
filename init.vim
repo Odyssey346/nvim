@@ -37,7 +37,6 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'plasticboy/vim-markdown' " Markdown support
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 	"	Plug 'wojciechkepka/bogster' " Color scheme 2: Electric boogaloo
-	Plug 'tc50cal/vim-terminal' " Terminal improvements
 	Plug 'drewtempelmeyer/palenight.vim' " Once again, color scheme...
 	Plug 'vim-airline/vim-airline-themes' " For airline
 call plug#end()
