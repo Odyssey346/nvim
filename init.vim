@@ -1,7 +1,18 @@
+"    ____      _                          ____  _  _     __  
+"   / __ \    | |                        |___ \| || |   / /  
+"   | |  | | __| |_   _ ___ ___  ___ _   _  __) | || |_ / /_  
+"   | |  | |/ _` | | | / __/ __|/ _ \ | | ||__ <|__   _| '_ \ 
+"   | |__| | (_| | |_| \__ \__ \  __/ |_| |___) |  | | | (_) |
+"    \____/ \__,_|\__, |___/___/\___|\__, |____/   |_|  \___/ 
+"                  __/ |              __/ |                   
+"		  |___/              |___/
+
 " Set lang, because even though I use English on everything, I can't set
 " English on my school PC. Sucks :(
 set langmenu=en_US.UTF-8
 language en 
+
+set pastetoggle=<F12>
 
 set history=500 
 set lazyredraw 
