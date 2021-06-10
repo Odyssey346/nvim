@@ -25,6 +25,8 @@ set splitbelow
 set wrap
 set guifont=Fira\ Mono
 autocmd VimEnter * NERDTree
+set updatetime=300 " Performance! Having a longer update time (default is 4000 which is 4 seconds) can have noticeable delays, and a poor user experience.
+
 
 set autoread
 set number
