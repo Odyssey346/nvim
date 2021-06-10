@@ -47,6 +47,7 @@ call plug#begin(stdpath('data') . '/plugged')
 	"	Plug 'wojciechkepka/bogster' " Color scheme 2: Electric boogaloo
 	Plug 'drewtempelmeyer/palenight.vim' " Once again, color scheme...
 	Plug 'vim-airline/vim-airline-themes' " For airline
+	Plug 'johngrib/vim-game-snake' " Snake in Vim, because why not?
 call plug#end()
 
 
