@@ -20,7 +20,7 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
-set sidescroll=1
+set nowrap
 set splitbelow
 set wrap
 set guifont=Fira\ Mono
