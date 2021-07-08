@@ -12,12 +12,14 @@
 set langmenu=en_US.UTF-8
 language en 
 
+let g:NERDTreeIgnore = ['^node_modules$']
 set pastetoggle=<F12>
 
 set history=500 
 set lazyredraw 
 set noerrorbells
 set novisualbell
+syntax on
 set t_vb=
 set tm=500
 set nowrap
@@ -26,7 +28,7 @@ set wrap
 set guifont=Fira\ Mono
 autocmd VimEnter * NERDTree
 set updatetime=300 " Performance! Having a longer update time (default is 4000 which is 4 seconds) can have noticeable delays, and a poor user experience.
-
+set t_Co=256
 
 set autoread
 set number
@@ -49,9 +51,12 @@ call plug#begin(stdpath('data') . '/plugged')
 	"	Plug 'wojciechkepka/bogster' " Color scheme 2: Electric boogaloo
 	Plug 'drewtempelmeyer/palenight.vim' " Once again, color scheme...
 	Plug 'vim-airline/vim-airline-themes' " For airline
+	Plug 'dikiaap/minimalist'
+	Plug 'mhinz/vim-startify'
+	Plug 'psliwka/vim-smoothie'
 call plug#end()
 
 
 set background=dark " needed i think
-let g:airline_theme = "palenight"
-colorscheme palenight
+let g:airline_theme = "minimalist"
+colorscheme minimalist
