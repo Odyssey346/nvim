@@ -10,9 +10,12 @@
 " Set lang, because even though I use English on everything, I can't set
 " English on my school PC. Sucks :(
 set langmenu=en_US.UTF-8
-language en 
+if has('win32')
+	language en 
+endif
 
 let g:NERDTreeIgnore = ['^node_modules$']
+let NERDTreeShowHidden=1
 set pastetoggle=<F12>
 
 set history=500 
@@ -35,7 +38,8 @@ set number
 
 " Other configs 
 let g:config_file_list = ['keymaps.vim',
-  \ 'plugins.vim'
+  \ 'plugins.vim',
+  \ 'ui.vim'
   \ ]
 
 let g:nvim_config_root = expand('<sfile>:p:h')
@@ -43,6 +47,3 @@ for s:fname in g:config_file_list
   execute printf('source %s/configs/%s', g:nvim_config_root, s:fname)
 endfor
 
-set background=dark " needed i think
-let g:airline_theme = "minimalist"
-colorscheme minimalist
