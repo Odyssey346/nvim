@@ -20,4 +20,5 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'mhinz/vim-startify'
 	Plug 'psliwka/vim-smoothie'
 	Plug 'voldikss/vim-floaterm'
+	Plug 'mizlan/vim-tierlist' " because why not?
 call plug#end()

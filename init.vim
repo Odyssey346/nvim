@@ -38,7 +38,8 @@ set number
 " Other configs 
 let g:config_file_list = ['keymaps.vim',
   \ 'plugins.vim',
-  \ 'ui.vim'
+  \ 'ui.vim',
+  \ 'plugin_settings.vim'
   \ ]
 
 let g:nvim_config_root = expand('<sfile>:p:h')
