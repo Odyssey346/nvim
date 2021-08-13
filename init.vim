@@ -14,9 +14,6 @@ if has('win32')
 	language en 
 endif
 
-let g:NERDTreeIgnore = ['^node_modules$']
-let NERDTreeShowHidden=1
-
 set history=500 
 set lazyredraw 
 set noerrorbells
