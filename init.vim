@@ -16,7 +16,6 @@ endif
 
 let g:NERDTreeIgnore = ['^node_modules$']
 let NERDTreeShowHidden=1
-set pastetoggle=<F12>
 
 set history=500 
 set lazyredraw 
