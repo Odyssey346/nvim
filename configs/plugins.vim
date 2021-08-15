@@ -21,4 +21,5 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'psliwka/vim-smoothie'
 	Plug 'voldikss/vim-floaterm'
 	Plug 'mizlan/vim-tierlist' " because why not?
+	Plug 'fedorenchik/qt-support.vim' " qml support! 
 call plug#end()
