@@ -11,7 +11,8 @@ let g:config_file_list = ['keymaps.vim',
   \ 'plugins.vim',
   \ 'ui.vim',
   \ 'plugin_settings.vim',
-  \ 'settings.vim'
+  \ 'settings.vim',
+  \ 'commands.vim'
   \ ]
 
 let g:nvim_config_root = expand('<sfile>:p:h')

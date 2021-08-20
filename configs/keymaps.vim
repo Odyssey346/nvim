@@ -6,3 +6,4 @@ set pastetoggle=<F12>
 
 " Make Ctrl + B toggle NERDTree
 map <C-b> :NERDTreeToggle <Enter> :echo "" <Enter>
+
