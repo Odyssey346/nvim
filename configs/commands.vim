@@ -5,3 +5,10 @@ function! UpdateConfig()
 endfunction
 
 command! UpdateConfig call UpdateConfig()
+
+function! OpenConfig()
+	let s:config = stdpath('config')
+	execute "cd" . s:config
+endfunction
+
+command! OpenConfig call OpenConfig()

@@ -23,4 +23,5 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'mizlan/vim-tierlist' " because why not?
 	Plug 'fedorenchik/qt-support.vim' " qml support!
 	Plug 'mhinz/vim-startify' " Custom start screen because why not
+	Plug 'morhetz/gruvbox' " lol
 call plug#end()

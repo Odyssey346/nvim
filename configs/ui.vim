@@ -33,5 +33,5 @@ if !exists('g:airline_symbols')
     let g:airline_symbols.maxlinenr = ''
 
 set background=dark " needed i think
-let g:airline_theme = "minimalist"
-colorscheme minimalist
+let g:airline_theme = "gruvbox"
+colorscheme gruvbox
