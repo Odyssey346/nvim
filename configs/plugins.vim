@@ -5,7 +5,7 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'pangloss/vim-javascript' " JS syntax stuff
 	Plug 'leafgarland/typescript-vim' "TS syntax stuff
 	Plug 'peitalin/vim-jsx-typescript' "JSX stuff
-	Plug 'neoclide/coc.nvim' " autocompletion
+	"	Plug 'neoclide/coc.nvim' " autocompletion
 	Plug 'evanleck/vim-svelte' " Svelte stuff
 	Plug 'APZelos/blamer.nvim' " Git blame inside of Vim
 	" Plug 'jaredgorski/spacecamp' " Color scheme

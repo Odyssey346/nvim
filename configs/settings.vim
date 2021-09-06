@@ -13,7 +13,6 @@ set tm=500
 set nowrap
 set splitbelow
 set wrap
-set guifont=JetBrains\ Mono
 autocmd VimEnter * Startify
 set updatetime=300 " Performance! Having a longer update time (default is 4000 which is 4 seconds) can have noticeable delays, and a poor user experience.
 set t_Co=256

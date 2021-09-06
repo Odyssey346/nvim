@@ -32,6 +32,7 @@ if !exists('g:airline_symbols')
     let g:airline_symbols.linenr = '☰'
     let g:airline_symbols.maxlinenr = ''
 
+set guifont=FiraCode\ NF
 set background=dark " needed i think
 let g:airline_theme = "gruvbox"
 colorscheme gruvbox

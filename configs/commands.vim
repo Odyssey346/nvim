@@ -8,7 +8,9 @@ command! UpdateConfig call UpdateConfig()
 
 function! OpenConfig()
 	let s:config = stdpath('config')
-	execute "cd" . s:config
+	execute "cd " . s:config
+	execute "NERDTree"
+	" ^ seems like i need to refresh nerdtree
 endfunction
 
 command! OpenConfig call OpenConfig()
